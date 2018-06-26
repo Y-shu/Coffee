@@ -1,0 +1,34 @@
+body,h1,p
+{
+  margin:0px;
+  padding:0px;
+}
+div
+{
+width:500px
+}
+#block1
+{
+  background-color: lightblue;
+}
+#block2
+{
+  background-color: lightgreen;
+}
+#block3
+{
+  background-color: lightpink;
+}
+div
+{
+  margin:20px 10px 23px 20px;
+  padding:20px;
+  width:25%;
+  float:left;
+  border: 1px dotted red;
+}
+img
+{
+  margin-left:20px;
+  float:right;
+}
