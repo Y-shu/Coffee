@@ -1,63 +1,55 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Forms</title>
-<style>
 
-</style>
+<head>
+  <meta charset="utf-8">
+  <title>Forms</title>
+  <style>
+  </style>
 </head>
 
 <body>
-<h1>Forms</h1>
+  <h1>Forms</h1>
+  <form action="form.php" method="get" autocomplete="off">
+    First Name:
+    <input type="text" name="name" required placeholder="Enter Your Name" />
+    <br/> Email:
+    <input type="email" autofocus autocomplete="off" name="Email" placeholder="Enter Your Email" autocomplete="0" />
+    <br/> Checkbox:
+    <input type="checkbox" name="Check1" value="Check1" checked/>Spicy
+    <input type="checkbox" name="Check1" value="Check1" />Extra Spicy
+    <input type="checkbox" name="Check1" value="Check1" />More Extra Spicy
 
-First Name:
+    <br/> Radio:
+    <input type="radio" name="radio" value="rd1" />Male
+    <input type="radio" name="radio" value="rd2" />Female
+    <input type="radio" name="radio" value="rd3" />Others
+    <br/> Message:
+    <textarea name="msgbox">Your Message Here
+</textarea>
+    <br/> Choose a Country:
+    <select name="dropdown" required>
+<option value="">Select Country</option>
+<option value="02">India</option>
+<option value="03">Pakistan</option>
+<option value="04">Srilanka</option>
+<option value="05">Others</option>
+</select>
+    <br/> Password:
+    <input type="password" name="Password" required/>
+    <br/> Number:
+    <input type="number" name="number" />
+    <br/> Range: 1 <input type="range" name="range" min="1" max="10" /> 10
+    <br/> Date:
+    <input type="date" value="2017-09-03" name="date" />
 
-<br/>
-Email:
+    <br/> Time:
+    <input type="time" value="20:12:00" name="Time" step="1" />
 
-<br/>
-Checkbox:
-check 1
-check 2
-<br/>
-Radio:
-radio 1
-radio 2
-<br/>
-Message:
-
-<br/>
-Dropdown:
-
-Option 1
-Option 2
-Option 3
-Option 4
-Option 5
-
-<br/>
-Password:
-
-<br/>
-Number: 
-
-<br/>
-Range: 
-1 10
-<br/>
-Date: 
-
-<br/>
-Time: 
-
-<br/>
-Color: 
-
-
-<br/>
-
-
-
+    <br/> Color:
+    <input type="color" name="Color" />
+    <br/>
+    <input type="submit" name="submit" value="Save" />
 </body>
+
 </html>
