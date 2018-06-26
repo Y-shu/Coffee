@@ -1,7 +1,8 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
+
+	<meta charset="utf-8">
 <title>Positioning</title>
 <style>
 body, h1, p {
@@ -14,10 +15,26 @@ body, h1, p {
 	margin:2%;
 	background-color:lightblue;
 }
-#parent-block {
+#parent-block
+ {
 	height:500px;
-	background-color:pink;
+	background-color:Pink;
+	position:relative;
+	left:100px;
 }
+#block2
+{
+	position:relative;
+	top:100px;
+	/*left:80px;*/
+}
+#special-message
+{
+	position:absolute;
+	left:20px;
+	bottom:500px;
+}
+
 </style>
 </head>
 
@@ -33,7 +50,7 @@ body, h1, p {
 	 </div>
 	 <div class="block">
 		<h1>Heading 3</h1>
-		<p>Paragraph 3 - Nam feugiat est varius sem auctor, vitae dictum augue laoreet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent quam ex, placerat a urna sed, vulputate commodo enim. Nullam imperdiet lorem mauris, nec finibus purus finibus eget. Vestibulum lacinia nisi sed eleifend mollis. Cras eleifend sit amet sem a luctus. Morbi commodo, dolor vel blandit interdum, orci lacus varius ipsum, vel viverra orci erat at nibh. Nunc dignissim purus risus, eu facilisis justo mattis a. Vivamus ex urna, rutrum ac lectus vel, molestie vulputate nisi. Quisque lacinia interdum laoreet.</p> 
+		<p>Paragraph 3 - Nam feugiat est varius sem auctor, vitae dictum augue laoreet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent quam ex, placerat a urna sed, vulputate commodo enim. Nullam imperdiet lorem mauris, nec finibus purus finibus eget. Vestibulum lacinia nisi sed eleifend mollis. Cras eleifend sit amet sem a luctus. Morbi commodo, dolor vel blandit interdum, orci lacus varius ipsum, vel viverra orci erat at nibh. Nunc dignissim purus risus, eu facilisis justo mattis a. Vivamus ex urna, rutrum ac lectus vel, molestie vulputate nisi. Quisque lacinia interdum laoreet.</p>
 	</div>
 	<div id="special-message">
 		Special Message
