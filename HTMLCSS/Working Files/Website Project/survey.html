@@ -1,37 +1,160 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Coffee Survey</title>
 
+<head>
+  <meta charset="utf-8">
+  <!-- <title>Coffee Survey</title> -->
+
+  <style>
+    body
+  {
+    background-image: url(https://images3.alphacoders.com/204/20495.jpg);
+  }
+    /* input, */
+
+    /* select, */
+
+    /* textarea */
+
+    /* { */
+
+    /* margin: 10px 5px; */
+
+    /* vertical-align: middle; */
+
+    /* } */
+
+    /* header { */
+
+    /* height: 100px; */
+
+    /* margin-bottom: 70px; */
+
+    /* } */
+<title>Coffee Survey</title>
+    header h1 {
+      color: rgba(256, 256, 256, .8);
+      margin-left: 30px;
+      margin-top: 30px;
+      font-size: 50px;
+    }
+
+    footer {
+      margin: 40px 0;
+    }
+
+    footer nav a:link,
+    footer nav a:visited {
+      color: gray;
+      text-decoration: none;
+      display: block width:160px;
+      text-align: center;
+      background-color: white;
+    }
+
+    nav a:hover {
+      background-color: black;
+    }
+
+    nav a:link,
+    nav a:visited {
+      background-color: brown;
+      color: white;
+      display: block;
+      width: 160px;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav li {
+      display: inline;
+      float: left;
+    }
+
+    footer nav a:hover {
+      color: black;
+    }
+
+    /* label{ */
+
+    /* display:block; */
+
+    /* width:200px; */
+
+    /* float:; */
+
+    /* text-align:right; */
+
+    /* } */
+  </style>
 </head>
 
 <body>
-
-Coffee Survey
-
-Your Name
-
-Email Address
-
-Tell us your coffee preparation methods.
-
-Do you grind your own beans?
-yes
-no
-
-How do you drink your coffee?
-with sugar
-with cream
-
-What is your favorite coffee drink?
-
-please select a drink
-drip coffee
-french press
-espresso
-latte
-flavored
-
+  <header>
+    <h1><i>All About Coffee</i></h1>
+    <nav>
+      <ul>
+        <li><a href="/home/fullstack/Y-shu/GIT-DIR/Learngit/Coffee/Coffee/HTMLCSS/Yashu/CoffeeIndex.html">Home</a></li>
+        <li><a href="/home/fullstack/Y-shu/GIT-DIR/Learngit/Coffee/Coffee/HTMLCSS/Yashu/CoffeeRosting.html">Roasting</a></li>
+        <li><a href="/home/fullstack/Y-shu/GIT-DIR/Learngit/Coffee/Coffee/HTMLCSS/Yashu/CoffeeGrinding.html">Grinding</a></li>
+        <li><a href="/home/fullstack/Y-shu/GIT-DIR/Learngit/Coffee/Coffee/HTMLCSS/Yashu/CoffeeBrewing.html">Brewing</a></li>
+        <li><a href="/home/fullstack/Y-shu/GIT-DIR/Learngit/Coffee/Coffee/HTMLCSS/Yashu/CoffeeDrinks.html">Drinks</a></li>
+        <li><a href="file:///home/fullstack/Y-shu/GIT-DIR/Learngit/Coffee/Coffee/HTMLCSS/Working%20Files/Website%20Project/survey.html">Coffee Survey</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Coffee Survey</h1>
+  <fieldset>
+    <legend>
+      <Strong><h1>Personal-Information</h1></Strong>
+    </legend>
+    <label for="name">Your Name</label>
+    <input type="name" id="name" name="Name" required placeholder="People call U as" />
+    <br>
+    <label for="name">Email Address</label>
+    <input type="email" id="Email" name="Email" required placeholder="How can we reach U" />
+  </fieldset>
+  <fieldset>
+    <legend>
+      <Strong><h1>Related-Information</h1></strong>
+    </legend>
+    <i><h2>Tell us your coffee preparation methods...</h2></i>
+    <i>  <h4>Do you grind your own beans?</h4></i>
+    <input type="radio" name="radio" value="id1" />yes
+    <input type="radio" name="radio" value="id2" />No
+    <br>
+    <i>  <h4>How do you drink your coffee?</h4></i>
+    <input type="radio" name="radio" value="id3" />With sugar
+    <input type="radio" name="radio" value="id4" />With Cream
+    <br>
+    <i>  <h4>What is your favorite coffee drink?
+please select a drink</h4></i>
+    <input type="checkbox" name="Check1" value="Check1" checked/>Drip Coffee
+    <input type="checkbox" name="Check2" value="Check2" />French Press
+    <input type="checkbox" name="Check3" value="Check3" />Espresso
+    <input type="checkbox" name="Check4" value="Check4" />Latte
+    <input type="checkbox" name="Check5" value="Check5" />Flavored
+    <br>
+    <br>
+    <i>We Love Here From You:</i>
+    <textarea name="msgbox">Your Message Here
+</textarea>
+    <br>
+    <br/>
+    <input type="submit" name="submit" value="Submit" />
+  </fieldset>
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="/home/fullstack/Y-shu/GIT-DIR/Learngit/Coffee/Coffee/HTMLCSS/Yashu/CoffeeIndex.html">Home</a></li>
+        <li><a href="/home/fullstack/Y-shu/GIT-DIR/Learngit/Coffee/Coffee/HTMLCSS/Yashu/CoffeeRosting.html">Roasting</a></li>
+        <li><a href="/home/fullstack/Y-shu/GIT-DIR/Learngit/Coffee/Coffee/HTMLCSS/Yashu/CoffeeGrinding.html">Grinding</a></li>
+        <li><a href="/home/fullstack/Y-shu/GIT-DIR/Learngit/Coffee/Coffee/HTMLCSS/Yashu/CoffeeBrewing.html">Brewing</a></li>
+        <li><a href="/home/fullstack/Y-shu/GIT-DIR/Learngit/Coffee/Coffee/HTMLCSS/Yashu/CoffeeDrinks.html">Drinks</a></li>
+        <li><a href="file:///home/fullstack/Y-shu/GIT-DIR/Learngit/Coffee/Coffee/HTMLCSS/Working%20Files/Website%20Project/survey.html">Coffee Survey</a></li>
+      </ul>
+    </nav>
+  </footer>
 </body>
+
 </html>
