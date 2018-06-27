@@ -3,11 +3,27 @@
 <head>
 <meta charset="utf-8">
 <title>Video</title>
+<style>
+video{
+  margin-top:20px;
+  margin-bottom: 20px
+  filter:grayscale(100%);
+  -webkit-filter:grayscale(100%);
+  -moz-filter:grayscale(100%);
+}
+</style>
 </head>
 
 <body>
 <h1>Streaming Video</h1>
 
-
+<video
+ src="latte-pour.mp4"poster="latte-poster.jpg" autoplay controls>
+<source src="latte-pour.mp4" type="video/mp4"/>
+<source src="latte-pour.mp4" type="video/ogv"/>
+<source src="latte-pour.mp4" type="video/mkv"/>
+<source src="latte-pour.webm" type="video/webm"/>
+Your Browser don't support This Video....
+</video>
 </body>
 </html>
