@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<img src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-solid.svg"   width="100" height="100";
+
+</head>
+  <style>
+  body {
+    padding-top:8px;
+}
+legend {
+   color: #678;
+}
+fieldset {
+    border: thin solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    padding-left: 40px;
+    background: #fbfbfb;
+}
+  label{
+    display:block;
+    width:50px;
+    float:left;
+    text-align:right;
+    }
+    input,select,textarea{
+      margin: 8px 8px;
+      vertical-align:middle;
+      }
+      img{
+    position:relative;
+    margin:20px 30px;
+    /* vertical-align: middle; */
+    width: 100px;
+    height: 100px;
+    top:10px;
+
+}
+button {
+
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 25px;
+    margin: 8px 8px;
+    border: none;
+    cursor: pointer;
+    width: 10%;}
+header h1 {
+      color: rgba(256, 256, 256, .8);
+      margin-left: 30px;
+      margin-top: 0.5px;
+      font-size: 50px;
+    }
+
+    footer {
+      margin: 40px 0;
+    }
+
+    footer nav a:link,
+    footer nav a:visited {
+      color: gray;
+      text-decoration: none;
+      display: block width:160px;
+      text-align: center;
+      background-color: white;
+    }
+      nav a:hover {
+      background-color: black;
+    }
+
+    nav a:link,
+    nav a:visited {
+      background-color:#4c198e;
+      color: white;
+      display: block;
+      width: 160px;
+      text-align: center;
+      padding: 10px 0;
+    }
+      footer nav a:hover {
+      color: black;
+    }
+    nav li {
+      display: inline;
+      float: left;
+    }
+
+
+  </style>
+</head>
+<body>
+  <header>
+<h1>BootStrap</h1>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="roasting.html">Contact</a></li>
+<li><a href="grinding.html">Address</a></li>
+<li><a href="brewing.html">Books</a></li>
+<li><a href="drinks.html">EmailUS</a></li>
+<li><a href="survey.html">Others</a></li>
+</ul>
+</nav>
+</header>
+  <h1>Registration</h1>
+  <form action="form.php" method="get" autocomplete="off">
+    <fieldset>
+      <legend>Personal Information</legend>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required placeholder="Enter Your Name" />
+    <br/>
+  Email:
+    <input type="email" autofocus autocomplete="off" name="Email" placeholder="Enter Your Email" autocomplete="0" />
+  </fieldset>
+  <fieldset>
+    <legend>Related Information</legend><br/>
+    Checkbox:
+    <input type="checkbox" name="Check1" value="Check1" checked/>Spicy
+    <input type="checkbox" name="Check1" value="Check1" />Extra Spicy
+    <input type="checkbox" name="Check1" value="Check1" />More Extra Spicy<br/>
+     Radio:
+    <input type="radio" name="radio" value="rd1" />Male
+    <input type="radio" name="radio" value="rd2" />Female
+    <input type="radio" name="radio" value="rd3" />Others<br/>
+     Message:
+    <textarea name="msgbox">Your Message Here
+    </textarea><br/>
+    Choose a Country:
+    <select name="dropdown" required>
+    <option value="">Select Country</option>
+    <option value="02">India</option>
+    <option value="03">Pakistan</option>
+<option value="04">Srilanka</option>
+<option value="05">Others</option>
+</select>
+    <br/>
+
+    <label for="pwd">Password:</label><br>
+    <input type="password" id="pwd" name="Password" required/>
+    <br/>
+
+    <label for ="num">Number:<label>
+    <input type="number" id =" num" name="number" />
+    <br/>
+    <label for="ran">Range:</label>
+      1<input type="range" id="ran" name="range" min="1" max="10" />    <br/>10
+        Date:
+    <input type="date" value="2017-09-03" name="date" />
+
+    <br/> Time:
+    <input type="time" value="20:12:00" name="Time" step="1" />
+
+    <br/> Color:
+    <input type="color" name="Color" />
+    <br/>
+    <input type="submit" name="submit" value="Save" />
+  </fieldset>
+
+</body>
+  <footer>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="roasting.html">Contact</a></li>
+<li><a href="grinding.html">Address</a></li>
+<li><a href="brewing.html">Books</a></li>
+<li><a href="drinks.html">EmailUs</a></li>
+<li><a href="survey.html">Others</a></li>
+</ul>
+</nav>
+</footer>
